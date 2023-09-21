@@ -70,7 +70,7 @@ namespace SLC_AS_TCATestScript_1
 		public void Run(IEngine engine)
 		{
 			engine.GenerateInformation("Hello world");
-			var order = OrderFactory.CreateOrder("Order 1");
+			var order = OrderFactory.CreateOrder("JansChange Order 1");
 			order.Dispatch("Toon Casteele");
 		}
 	}
